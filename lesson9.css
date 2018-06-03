@@ -10,10 +10,16 @@ body{
 	margin: 0 auto;
 	width: 1170px;
 }
-.row after{
-	content: ;
+.page-header{
+	height: 100px;
+	background-color:rgba(255,255,255,0.75)
+
+}
+.row:after{
+	content:"" ;
 	clear: both;
 	display: block;
+
 }
 [class*="col-"]{
 	float: left;
@@ -24,3 +30,19 @@ body{
 	.col-md-6{
 		width: 50%;
 	}
+.menu > li{
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	border-left: solid 1px #2e71b5;
+
+}
+a{
+	text-decoration: none;
+}
+.submenu{
+	display: none;
+}
+.logo{
+	margin: 30px 0;
+}
